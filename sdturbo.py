@@ -62,29 +62,22 @@ except KeyboardInterrupt:
 except Exception as e:
     print(f"Error: {e}")
 
-# SDTurbo
-
+"""
 SDTurbo es una herramienta de visualización en tiempo real de señales de audio capturadas desde el micrófono. Incluye efectos visuales como amplificación automática para señales bajas y un efecto de "glow" dinámico.
 
-## Características
-
+Características:
 - Visualización en tiempo real de señales de audio.
 - Amplificación automática para señales de baja amplitud.
 - Efecto de "glow" dinámico para mejorar la estética.
 
-## Instalación
-
+Instalación:
 1. Clona este repositorio:
-   ```bash
    git clone https://github.com/tuusuario/sdturbo.git
    cd sdturbo
-   ```
 
-### **3. Crear el archivo [requirements.txt](http://_vscodecontentref_/1)**
+3. Crear el archivo requirements.txt
 Incluye las dependencias necesarias para el proyecto:
-
-```plaintext
 numpy
 sounddevice
 matplotlib
-```
+"""
